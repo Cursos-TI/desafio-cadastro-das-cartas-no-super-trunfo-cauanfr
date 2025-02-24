@@ -1,0 +1,56 @@
+# Arquivos de compilação e binários
+*.o
+*.out
+*.lo
+*.la
+*.a
+*.so
+*.dll
+*.exe
+
+# Diretórios de build comuns
+/build/
+/bin/
+/obj/
+/Debug/
+/Release/
+
+# Arquivos gerados por ferramentas de build
+*.d
+*.gcda
+*.gcno
+*.gcov
+
+# Arquivos temporários do sistema
+*.swp
+*.swo
+*.bak
+*.tmp
+*.DS_Store
+Thumbs.db
+
+# Dependências geradas automaticamente
+*.dSYM/
+*.dep
+*.manifest
+*.pdb
+.vscode
+
+# Arquivos de log
+*.log
+
+# Makefile intermediários
+Makefile.in
+Makefile~
+config.status
+config.log
+
+# Arquivos do CMake
+CMakeCache.txt
+CMakeFiles/
+
+# Arquivos do autotools
+autom4te.cache/
+configure
+config.h
+config.h.in

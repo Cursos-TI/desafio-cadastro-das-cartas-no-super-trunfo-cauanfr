@@ -20,7 +20,7 @@ int main()
     printf("Preencha abaixo as informações da Carta 1.\n\n");
     printf("Digite o estado: ");
     scanf("%c", &carta_1_estado);
-    getchar();
+    getchar(); // utilizado para limpar o \n deixado no buffer do scanf.
 
     printf("Digite o código do estado: ");
     scanf("%s", carta_1_codigo);
@@ -88,7 +88,7 @@ int main()
     scanf("%d", &carta_2_pontos_turisticos);
     getchar();
 
-    // Mostrando as informações da carta 1.
+    // Mostrando as informações da carta 2.
     printf("\n\n-------------------------------------\n");
     printf("Informações da carta\n");
     printf("Carta 2:\n");

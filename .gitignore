@@ -6,7 +6,6 @@
 *.a
 *.so
 *.dll
-*.exe
 
 # Diretórios de build comuns
 /build/
